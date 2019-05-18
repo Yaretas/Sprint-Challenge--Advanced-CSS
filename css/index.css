@@ -272,7 +272,7 @@ footer {
 }
 .home .walk .walk-text .btn {
   width: 50%;
-  height: 10%;
+  height: auto;
   padding: 2rem;
   background: #23293B;
   cursor: pointer;
