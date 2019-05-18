@@ -185,6 +185,12 @@ p {
   .navigation {
     width: 100%;
   }
+  .navigation a {
+    font-size: 1.6rem;
+  }
+  .navigation h1 {
+    font-size: 4rem;
+  }
 }
 footer {
   color: #22283B;
@@ -252,8 +258,8 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  width: 100px;
-  height: 50px;
+  width: 50%;
+  height: 10%;
   padding: 2rem;
   background: #23293B;
   cursor: pointer;
@@ -263,6 +269,7 @@ footer {
   font-size: 2rem;
   color: aliceblue;
   text-align: center;
+  box-sizing: border-box;
 }
 .home .walk .walk-text .btn:hover {
   background: #5E6164;
