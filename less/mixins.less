@@ -1,10 +1,10 @@
 // Mixins Here
 
-.custom-btn(@width:20px, @height:40px, @hvrcolor2){
+.custom-btn(@width:20px,@height:40px, @hvrcolor2){
     width:@width;
     height:@height;
     padding:2rem;
-    background: @hvrcolor2;
+    background-color: @hvrcolor2;
     cursor:pointer;
     transition: background 1s;
     border: 1px solid black;
@@ -12,7 +12,8 @@
     text-align: center;
     
         &:hover{
-        background:@shuttle-gray;
+        background-color:@shuttle-gray;
+        color: @hvrcolor2;
         }
     }
 
@@ -29,6 +30,7 @@
         
             &:hover{
             background:@shuttle-gray;
+            color: @hvrcolor2;
             }
         }
 
